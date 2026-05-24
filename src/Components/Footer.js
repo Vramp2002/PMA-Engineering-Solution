@@ -190,9 +190,13 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>© 2026 PMA Engineering Solution. All rights reserved.</p>
         <div className="legal-links">
-          <a>Privacy Policy</a>
-          {/* <a>Terms of Service</a>
-          <a>Cookie Policy</a> */}
+          <button
+           type="button"
+           className="link-button"
+           onClick={handlePrivacyClick}
+           >
+            Privacy Policy
+          </button>
         </div>
       </div>
     </footer>
