@@ -81,10 +81,10 @@ const Navbar = () => {
             <Link to="/#home" onClick={() => setMobileOpen(false)}>Home</Link>
           </li>
           <li>
-            <Link to="/#value-prop" onClick={() => setMobileOpen(false)}>Services</Link>
+            <Link to="/#value-prop" onClick={() => setMobileOpen(false)}>Why Us</Link>
           </li>
           <li>
-            <Link to="/#features" onClick={() => setMobileOpen(false)}>Why Us</Link>
+            <Link to="/#features" onClick={() => setMobileOpen(false)}>Services</Link>
           </li>
           <li>
             <Link to="/#industries" onClick={() => setMobileOpen(false)}>Made By Us</Link>

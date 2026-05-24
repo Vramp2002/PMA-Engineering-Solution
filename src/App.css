@@ -245,8 +245,8 @@ a {
 
 /* Active Scroll Spy */
 .active-link {
-  color: var(--primary) !important;
-  background: #ddebf9 !important;
+  /* color: var(--primary) !important; */
+  /* background: #ddebf9 !important; */
   padding: 8px 12px !important;
   border-radius: 8px;
   font-weight: 600;
@@ -1717,8 +1717,16 @@ transform: translateY(-8px);
 
 .project-image{
 width: 100%;
-height: 260px;
-object-fit: cover;
+height: 300px;
+object-fit: contain;
+background:
+linear-gradient(
+135deg,
+#edf3f8,
+#d1d1d2
+);
+padding: 10px;
+transition: 0.4s ease;
 }
 
 .project-content{
@@ -1727,7 +1735,7 @@ text-align: center;
 }
 
 .project-content h3{
-font-size: 22px;
+font-size: 20px;
 color: #0f172a;
 }
 

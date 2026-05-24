@@ -1,61 +1,61 @@
 import React from "react";
+import wave1 from "../Images/Projects/wave1.jpeg"
+import smt1 from "../Images/Projects/smt1.jpeg"
+import manual from "../Images/Projects/manual-soldering-fixtures.jpg.jpeg"
+import pcba1 from "../Images/Projects/pcba-screwing-fixture.webp"
+import router1 from"../Images/Projects/router1.png"
+import screwing from"../Images/Projects/screwing.png"
+import retrofit from"../Images/Projects/retrofit.png"
+import pcba2 from "../Images/Projects/pcba-assembly-fixture.png"
+import fixture from "../Images/Projects/fixture_plate.jpeg"
 
-// import pallet1 from "../Images/Projects/pallet1.png";
-// import pallet2 from "../Images/Projects/pallet2.png";
-// import pallet3 from "../Images/Projects/pallet3.png";
 
-// import smt1 from "../Images/Projects/smt1.png";
-// import smt2 from "../Images/Projects/smt2.png";
-// import smt3 from "../Images/Projects/smt3.png";
 
-// import fixture1 from "../Images/Projects/fixture1.png";
-// import fixture2 from "../Images/Projects/fixture2.png";
-// import fixture3 from "../Images/Projects/fixture3.png";
 
 const products = [
 
 {
-// image: pallet1,
+image: wave1,
 title: "Wave Pallet"
 },
 
 {
-// image: pallet2,
+image: router1,
 title: "Router Pallet"
 },
 
 {
-// image: pallet3,
-title: "Industrial Fixture Pallet"
+  image: fixture,
+  title: "Precision Fixture Plate"
 },
 
 {
-// image: smt1,
+image: smt1,
 title: "SMT Pallet"
 },
 
 {
-// image: smt2,
+image: manual,
 title: "Manual Soldering Fixture"
 },
 
 {
-// image: smt3,
+image: pcba1,
 title: "PCB Assembly Fixture"
 },
 
 {
-// image: fixture1,
+image: screwing,
 title: "Screwing Fixture"
 },
 
 {
-// image: fixture2,
+image: pcba2,
 title: "PCBA Assembly Fixture"
 },
 
 {
-// image: fixture3,
+image: retrofit,
 title: "Retrofit Components"
 }
 
