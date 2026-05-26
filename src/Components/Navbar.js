@@ -90,6 +90,9 @@ const Navbar = () => {
             <Link to="/#industries" onClick={() => setMobileOpen(false)}>Made By Us</Link>
           </li>
           <li>
+            <Link to="/projects" onClick={() => setMobileOpen(false)}>Products & Solutions</Link>
+          </li>
+          <li>
             <Link to="/#footer" onClick={() => setMobileOpen(false)}>Contact</Link>
           </li>
         </ul>
